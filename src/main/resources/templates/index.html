@@ -1,0 +1,14 @@
+<html xmlns:th = "http://www.thymeleaf.org"
+      xmlns = "http://www.w3.org/xhtml"
+      xmlns:sec = "http://www.thymeleaf.org/extras/spring-security">
+    <head th:replace="layout/plantilla :: head">
+        <title>home</title>
+    </head>
+    <body>
+        <header th:replace = "layout/plantilla :: header"/>
+        <!--<section th:replace = "layout/botonesAgregar :: botonesAgregar"></section>-->
+        <section th:replace = "layout/agregarCliente :: agregarCliente"></section>
+        <section th:replace = "layout/listadoClientes :: listadoClientes"></section>
+        <footer th:replace = "layout/plantilla :: footer"/>
+    </body>
+</html>

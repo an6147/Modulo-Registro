@@ -1,0 +1,12 @@
+<html xmlns:th = "http://www.thymeleaf.org"
+      xmlns = "http://www.w3.org/xhtml"
+      xmlns:sec = "http://www.thymeleaf.org/extras/spring-security">
+    <head>
+        <title>Acceso Denegado</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div>Acceso Denegado. No tienes permiso para ver esta pagina.</div>
+        <a th:href = "@{/}">[[#{Accion.regresar}]]</a>
+    </body>
+</html>
